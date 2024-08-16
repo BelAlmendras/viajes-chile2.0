@@ -1,0 +1,28 @@
+.testimonios{
+    padding-bottom: 5%;
+}
+.testimonios h2{
+    @include h2;
+
+}
+.testimonios p{
+    font-style: italic;
+    font-weight: 200;
+    padding-top: 5%;
+}
+.testimonios .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+  }
+  
+.testimonios .column img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 5%;
+   
+}

@@ -1,0 +1,25 @@
+.contacto{
+    padding-top: 3%;
+}
+.contacto h2 {
+@include h2
+}
+.contacto h5{
+    padding-bottom: 5%;
+    font-weight: 600;
+}
+.contacto-info p{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.contacto-info h5{
+    padding-left: 5%;
+}
+.terminos{
+    padding-top: 2%;
+}
+
+.terminos strong:hover{
+    color: black;
+    cursor: pointer;
+}

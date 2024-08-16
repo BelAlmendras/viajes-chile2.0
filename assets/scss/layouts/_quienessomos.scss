@@ -1,0 +1,8 @@
+.quienessomos{
+    background-color: #5e5d5c;
+    margin-bottom: 0;
+    padding-top: 5%;
+}
+.quienessomos h2{
+    @include h2;
+}

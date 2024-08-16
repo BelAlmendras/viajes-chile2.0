@@ -1,2 +1,30 @@
 //bootstrap compilado
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+//abstracts
+@import "../scss/abstracts/mixin";
+//base
+@import "../scss/base/base";
+
+//components
+@import "./components/hero__carrusel";
+@import "./components/destacados__card-horizontal";
+@import "./components/contacto__formulario";
+@import "./components/contacto__modal";
+
+
+//layout
+@import "../scss/layouts/nav";
+@import "../scss/layouts/hero";
+@import "../scss/layouts/quienessomos";
+@import "../scss/layouts/destacados";
+@import "../scss/layouts/testimonios";
+@import "../scss/layouts/contacto";
+@import "../scss/layouts/footer";
+
+//pages
+@import "../scss/pages/index";
+
+//themes
+
+//vendors

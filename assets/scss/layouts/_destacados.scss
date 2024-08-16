@@ -1,0 +1,9 @@
+.destacados{
+    background-color: #5e5d5c;
+    margin-top: 0;
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+.destacados h2{
+    @include h2
+}
